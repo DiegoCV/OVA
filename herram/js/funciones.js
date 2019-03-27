@@ -87,3 +87,60 @@ function crearSpan2(titulo) {
 
 //---------------------------------------------------------------------------------------------
 //--------------------------------------------------------------------------------------------
+//------------PREGUNTAS---------------------------------------------------------------------
+	function construirPreguntas(preguntas){
+		res = [];
+		for(let i in preguntas){
+			div = crearElemento("div","row");
+			col = crearElemento("div","col-lg-6");
+			form = crearElemento("form");
+			p = crearElemento("p","lead");
+			p.appendChild(document.createTextNode(preguntas[i].enunciado));
+			form.appendChild(p);
+			ul = crearElemento("ul","list-unstyled");			
+			alternativas = preguntas[i].alternativas;
+			for(let j in alternativas){
+				li = crearElemento("li");
+				div2 = crearElemento("div","form-check");
+				input = crearInput("checkbox","form-check-input");
+				input.setAttribute("id", "alte_"+alternativas[j].key);
+				label = crearElemento("label");
+				label.setAttribute("for", "alte_"+alternativas[j].key);
+				label.appendChild(document.createTextNode(alternativas[j].alte));
+				div2.appendChild(input);
+				div2.appendChild(label);
+				li.appendChild(div2);
+				ul.appendChild(li);
+			}
+			form.appendChild(ul);
+			col.appendChild(form);
+			div.appendChild(col);
+			res.push(div);
+		}
+		return res;
+	}
+
+	function crearElemento(elemento,clase){
+		ele = document.createElement(elemento);
+		if(clase != undefined){
+			ele.setAttribute("class", clase);
+		}
+		return ele;
+	}
+
+	function crearInput(tipo,clase){
+		ele = document.createElement("input");
+		if(tipo != undefined){
+			ele.setAttribute("type", tipo);
+		}
+		if(clase != undefined){
+			ele.setAttribute("class", clase);
+		}
+		return ele;
+	}
+
+
+
+
+//---------------------------------------------------------------------------------------------
+//--------------------------------------------------------------------------------------------

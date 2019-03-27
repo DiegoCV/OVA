@@ -1,0 +1,57 @@
+[
+	{
+		"key":"1",
+		"enunciado":"¿Cual de estas opciones es correcta?",
+		"alternativas":[
+			{
+				"key":"1",
+				"alte":"La opcion a es la correcta"
+			},
+			{
+				"key":"2",
+				"alte":"La opcion b es la correcta"
+			},
+			{
+				"key":"3",
+				"alte":"La opcion c es la correcta"
+			}
+		]
+	},
+	{
+		"key":"2",
+		"enunciado":"¿Cual de estas opciones es correcta2?",
+		"alternativas":[
+			{
+				"key":"1",
+				"alte":"La opcion a es la correcta"
+			},
+			{
+				"key":"2",
+				"alte":"La opcion b es la correcta"
+			},
+			{
+				"key":"3",
+				"alte":"La opcion c es la correcta"
+			}
+		]
+	},
+	{
+		"key":"3",
+		"enunciado":"¿Cual de estas opciones es correcta3?",
+		"alternativas":[
+			{
+				"key":"1",
+				"alte":"La opcion a es la correcta"
+			},
+			{
+				"key":"2",
+				"alte":"La opcion b es la correcta"
+			},
+			{
+				"key":"3",
+				"alte":"La opcion c es la correcta"
+			}
+		]
+	}
+	
+]
