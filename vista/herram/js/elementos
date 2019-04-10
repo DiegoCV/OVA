@@ -1,0 +1,35 @@
+{
+	"tipo":"p",
+	"atributos":{
+		"id":"1",
+		"class":"lead"
+	},
+	"contenido":"El parrafo de la vida",
+	"hijos":[
+		{
+			"tipo":"span",
+			"atributos":{
+				"id":"2",
+				"class":"lead"
+			},
+			"hijos":[
+				{
+					"tipo":"a",
+					"atributos":{
+						"id":"3",
+						"class":"super"
+					},
+					"contenido":"Yo tambien soy un span"
+				}
+			]
+		},
+		{
+			"tipo":"span",
+			"atributos":{
+				"id":"3",
+				"class":"lead"
+			},
+			"contenido":"Yo tambien soy un span"
+		}
+	]
+}

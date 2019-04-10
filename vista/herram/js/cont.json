@@ -1,0 +1,18 @@
+{
+			"titulo":"mi suoer titulo",
+			"original":"Pardon, monsieur. Ou est le métro St. Michel? \n Le métro St Michel? Attendez une minute . . . \n Nous Sommes au Boulevard St. Michel. La fontaine est la-bas. \n Oui, d’accord. Mais ou le métro, s’il vous plaît? \n Mais bien sûr! Voila la Seine, et voici le pont \n C’est joli; mais s’il vous plait . . . \n Ce n’est pas a gauche, alors c’est a droite. \n Voila . Le metro est a droite! \n Mais vous etes sur? \n Non. Je suis touriste aussi!",
+			"diccionario":{
+				"complete":[
+					"completado",
+					"complet"
+				],
+				"with":[
+					"con",
+					"con"
+				]
+			},
+			"titulo2":"mi suoer titulo",
+			"traduccion":"Disculpe señor. ¿Dónde está el metro de St. Michel? \n  El metro de St Michel? Espera un minuto . . . \n Estamos en el Boulevard St. Michel. La fuente está ahí. \n  Sí, está bien. ¿Pero dónde está el metro, por favor?  \n ¡Pero claro! Aquí está el Sena, y aquí está el puente. \n Es bonito; pero por favor . .  \n  No queda, así que está bien. \n  Voila. El metro está a la derecha!  \n  Pero estas en? \n  No. ¡Soy un turista también!",
+			"traduccionL":"Perdón Sr. ¿Dónde es el metro San Miguel? \n el metro San Miguel? espere unos minutos . . . \n nosotros estámos en Bulevar San Miguel. la fuente está la-bas. \n Oui, deacuerdo. pero donde el metro, Si usted place? \n Pero bien seguro aquí el Sena, y ahí el pont \n es bonito; pero si usted place . . . \n eso noes paa tener izquierda, entonces es tener derecha. \n Voila . el metro está a derecha! \n pero usted esta seguro? \n Non. yo son turista también"
+ 
+}
